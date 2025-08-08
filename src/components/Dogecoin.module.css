@@ -1,0 +1,53 @@
+a {
+  text-decoration: none;
+  color: black;
+}
+header {
+  padding: 15px 0px;
+  /* border: 1px solid black; */
+  background-color: rgb(255 193 7);
+}
+.container {
+  max-width: 80%;
+  margin: 0px auto;
+}
+/* whatisDogecoinWrapper start */
+.whatDogecoinWrapper {
+  margin-top: 70px;
+}
+.whatDogecoinWrapper > div {
+  width: 45%;
+}
+.whatDogecoinWrapper > div:nth-child(1) > h2 {
+  font-size: 45px;
+  margin-bottom: 15px;
+}
+.whatDogecoinWrapper > div:nth-child(1) > p {
+  font-size: 25px;
+}
+.whatDogecoinWrapper > div:nth-child(1) > p:nth-child(3) {
+  font-size: 16px;
+  /* background-color: red; */
+}
+/* whatisDogecoinWrapper end */
+
+/* LineGraph start */
+.loginBtn {
+  padding: 10px 25px;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+}
+/* LineGraph end */
+
+@media (max-width: 768px) {
+  .whatDogecoinWrapper > div {
+    width: 100%; /* Make it full-width for smaller screens */
+  }
+  .whatDogecoinWrapper > div:nth-child(1) > h2 {
+    font-size: 40px;
+  }
+  .whatDogecoinWrapper > div:nth-child(1) > p {
+    font-size: 20px;
+  }
+}
